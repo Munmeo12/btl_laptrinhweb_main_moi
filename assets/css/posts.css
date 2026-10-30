@@ -17,12 +17,12 @@
 }
 
 .posts-page-header p {
-    color: #7d8d76;
+    color: #6b7a90;
     font-size: 15px;
 }
 
 .create-post-button {
-    background: #813027;
+    background: #1c3663;
     color: white;
     padding: 11px 18px;
     border-radius: 8px;
@@ -33,7 +33,7 @@
 }
 
 .create-post-button:hover {
-    background: #6d271f;
+    background: #152a4f;
 }
 
 /* BỘ LỌC */
@@ -63,9 +63,9 @@
 }
 
 .post-filter-tabs a.active {
-    background: #813027;
+    background: #1c3663;
     color: white;
-    border-color: #813027;
+    border-color: #1c3663;
 }
 
 .post-filter-tabs a.active span {
@@ -81,7 +81,7 @@
 
 .post-code {
     font-weight: 600;
-    color: #813027;
+    color: #1c3663;
     white-space: nowrap;
 }
 
@@ -96,7 +96,7 @@
 
 .small-action-button {
     padding: 6px 10px;
-    background: #f3efed;
+    background: #eef0f2;
     border-radius: 7px;
     font-size: 12px;
     display: inline-flex;
@@ -105,7 +105,7 @@
 }
 
 .small-action-button:hover {
-    background: #e7dfdc;
+    background: #dee1e5;
 }
 
 /* THÔNG BÁO */

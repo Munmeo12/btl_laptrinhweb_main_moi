@@ -6,8 +6,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #2d2927;
-    background: #fff8ed;
+    color: #0e1625;
+    background: #f1f5fb;
 }
 
 a {
@@ -18,7 +18,7 @@ a {
 .editor-header {
     width: 100%;
     height: 82px;
-    background: #813027;
+    background: #1c3663;
     color: #fff;
 }
 
@@ -85,6 +85,6 @@ a {
 
 .editor-main {
     min-height: 550px;
-    background: #fff8ed;
+    background: #f1f5fb;
 }
 

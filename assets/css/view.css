@@ -15,7 +15,7 @@
     display: inline-flex;
     align-items: center;
     gap: 7px;
-    color: #813027;
+    color: #1c3663;
     font-size: 14px;
 }
 
@@ -34,19 +34,19 @@
     gap: 6px;
     padding: 10px 15px;
     border-radius: 7px;
-    background: #813027;
+    background: #1c3663;
     color: white;
     font-size: 13px;
 }
 
 .edit-post-button:hover {
-    background: #6d271f;
+    background: #152a4f;
 }
 
 /* BÀI VIẾT */
 .view-post-card {
     background: white;
-    border: 1px solid #eee4dc;
+    border: 1px solid #e0e4ea;
     border-radius: 13px;
     overflow: hidden;
 }
@@ -64,7 +64,7 @@
 }
 
 .post-view-code {
-    color: #813027;
+    color: #1c3663;
     font-size: 13px;
     font-weight: 700;
 }
@@ -105,8 +105,8 @@
 .view-summary {
     margin: 25px 30px 0;
     padding: 18px 20px;
-    border-left: 4px solid #813027;
-    background: #fff8ed;
+    border-left: 4px solid #1c3663;
+    background: #f1f5fb;
     border-radius: 6px;
 }
 
@@ -118,7 +118,7 @@
 .view-summary p {
     font-size: 14px;
     line-height: 1.7;
-    color: #5f5652;
+    color: #364052;
 }
 
 /* NỘI DUNG */
@@ -134,7 +134,7 @@
 .article-content {
     font-size: 15px;
     line-height: 1.9;
-    color: #403a37;
+    color: #162239;
 }
 
 /* LÝ DO TỪ CHỐI */

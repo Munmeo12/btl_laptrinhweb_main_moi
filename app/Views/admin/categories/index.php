@@ -58,7 +58,7 @@
 .category-search-box select {
     height: 42px;
     padding: 0 14px;
-    border: 1px solid #ddd8d2;
+    border: 1px solid #d3d6dc;
     border-radius: 7px;
     background: #ffffff;
     color: #374151;
@@ -136,13 +136,13 @@
    ============================================================ */
 
 .category-table th {
-    background: #f7f4f0;
+    background: #f1f3f6;
     color: #374151;
     font-size: 13px;
     font-weight: 600;
     text-align: left;
     padding: 15px;
-    border-bottom: 1px solid #e5e0da;
+    border-bottom: 1px solid #dcdfe3;
     white-space: nowrap;
 }
 
@@ -153,7 +153,7 @@
 
 .category-table td {
     padding: 15px;
-    border-bottom: 1px solid #eee9e4;
+    border-bottom: 1px solid #e6e8ec;
     font-size: 14px;
     color: #374151;
     vertical-align: middle;
@@ -164,7 +164,7 @@
 }
 
 .category-table tbody tr:hover {
-    background: #fcfaf8;
+    background: #f9fafb;
 }
 
 

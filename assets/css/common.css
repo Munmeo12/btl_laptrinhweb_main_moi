@@ -6,8 +6,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #fff8ed;
-    color: #302b29;
+    background: #f1f5fb;
+    color: #0e1625;
 }
 
 a {
@@ -19,7 +19,7 @@ a {
 .site-header {
     width: 100%;
     height: 82px;
-    background: #813027;
+    background: #1c3663;
     color: white;
 }
 
@@ -127,7 +127,7 @@ a {
 /* MAIN */
 .main-content {
     min-height: 600px;
-    background: #fff8ed;
+    background: #f1f5fb;
 }
 
 /* TABLE */
@@ -196,7 +196,7 @@ a {
 /* FOOTER */
 .site-footer {
     width: 100%;
-    background: #503229;
+    background: #16233a;
     color: #fff;
 }
 
@@ -223,7 +223,7 @@ a {
 
 .footer-brand p {
     margin: 0 0 3px;
-    color: #f0e8e4;
+    color: #e6e9ee;
     font-size: 11px;
     line-height: 1.35;
 }
@@ -244,7 +244,7 @@ a {
 
 .footer-column a {
     margin-bottom: 6px;
-    color: #eee3df;
+    color: #e2e5eb;
     font-size: 11px;
     line-height: 1.25;
     text-decoration: none;
@@ -260,7 +260,7 @@ a {
     display: flex;
     align-items: flex-start;
     gap: 8px;
-    color: #eee3df;
+    color: #e2e5eb;
     font-size: 11px;
     line-height: 1.35;
 }
@@ -294,7 +294,7 @@ a {
 .footer-policy a,
 .footer-policy span {
     margin: 0;
-    color: #e6dad5;
+    color: #d8dce3;
     font-size: 9px;
 }
 
@@ -365,7 +365,7 @@ a {
 .logout-btn:hover {
     border-color: #fff;
     background: #fff;
-    color: #813027;
+    color: #1c3663;
 }
 
 .logout-btn:active {

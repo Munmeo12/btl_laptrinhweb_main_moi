@@ -17,38 +17,38 @@ $dateFormat = static fn(?string $value): string => $value ? date('d/m/Y H:i', st
 ?>
 <style>
 .ar-wrap{max-width:820px;margin:0 auto;padding:38px 20px 60px}
-.ar-heading h1{margin:0 0 8px;font:700 28px Lora,serif;color:#4a3028}
-.ar-heading p{margin:0 0 24px;color:#786d68;font-size:14px;line-height:1.6}
-.ar-card{background:#fff;border:1px solid #eadfd9;border-radius:12px;padding:24px;margin-bottom:20px;box-shadow:0 8px 28px rgba(74,48,40,.045)}
-.ar-card h2{margin:0 0 14px;font:600 18px Lora,serif;color:#4a3028}
+.ar-heading h1{margin:0 0 8px;font:700 28px Lora,serif;color:#142035}
+.ar-heading p{margin:0 0 24px;color:#49576e;font-size:14px;line-height:1.6}
+.ar-card{background:#fff;border:1px solid #dce0e7;border-radius:12px;padding:24px;margin-bottom:20px;box-shadow:0 8px 28px rgba(20,32,53,.045)}
+.ar-card h2{margin:0 0 14px;font:600 18px Lora,serif;color:#142035}
 .ar-alert{padding:12px 15px;border-radius:8px;font-size:13px;margin-bottom:18px}
 .ar-alert.success{color:#286448;background:#e8f5ee;border:1px solid #b9ddc9}
 .ar-alert.error{color:#8b3330;background:#fae7e6;border:1px solid #ebc1be}
 .ar-alert.info{color:#6e4f1b;background:#fff3d8;border:1px solid #f0d9a5}
 .ar-field{margin-bottom:18px}
-.ar-field label{display:block;margin-bottom:6px;font-size:13px;font-weight:600;color:#2f2724}
-.ar-field label span{color:#8c3026}
-.ar-field input[type=text],.ar-field input[type=url],.ar-field textarea{width:100%;padding:11px 12px;border:1px solid #dcd1cb;border-radius:8px;font:14px Inter,Arial,sans-serif;color:#2f2724;background:#fff;outline:0}
+.ar-field label{display:block;margin-bottom:6px;font-size:13px;font-weight:600;color:#0e1625}
+.ar-field label span{color:#1b3a6e}
+.ar-field input[type=text],.ar-field input[type=url],.ar-field textarea{width:100%;padding:11px 12px;border:1px solid #ccd1db;border-radius:8px;font:14px Inter,Arial,sans-serif;color:#0e1625;background:#fff;outline:0}
 .ar-field textarea{min-height:140px;resize:vertical;line-height:1.6}
-.ar-field input:focus,.ar-field textarea:focus{border-color:#8c3026;box-shadow:0 0 0 3px rgba(140,48,38,.1)}
-.ar-field small{display:block;margin-top:5px;color:#8b807b;font-size:12px}
+.ar-field input:focus,.ar-field textarea:focus{border-color:#1b3a6e;box-shadow:0 0 0 3px rgba(27,58,110,.1)}
+.ar-field small{display:block;margin-top:5px;color:#747f92;font-size:12px}
 .ar-field .ar-error{color:#8b3330;font-weight:500}
-.ar-check{display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.5;color:#2f2724}
+.ar-check{display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.5;color:#0e1625}
 .ar-check input{margin-top:3px}
-.ar-btn{display:inline-flex;align-items:center;justify-content:center;height:42px;padding:0 22px;border:0;border-radius:8px;background:#8c3026;color:#fff;font:600 14px Inter,Arial,sans-serif;cursor:pointer;text-decoration:none}
-.ar-btn:hover{background:#642018}
+.ar-btn{display:inline-flex;align-items:center;justify-content:center;height:42px;padding:0 22px;border:0;border-radius:8px;background:#1b3a6e;color:#fff;font:600 14px Inter,Arial,sans-serif;cursor:pointer;text-decoration:none}
+.ar-btn:hover{background:#102343}
 .ar-chip{display:inline-flex;padding:5px 11px;border-radius:999px;font-size:12px;font-weight:600}
 .ar-chip.pending{color:#6e4f1b;background:#fff3d8}
 .ar-chip.approved{color:#286448;background:#e8f5ee}
 .ar-chip.rejected{color:#8b3330;background:#fae7e6}
 .ar-meta{display:grid;grid-template-columns:130px 1fr;gap:8px 14px;margin:14px 0 0;font-size:13px;line-height:1.6}
-.ar-meta dt{color:#8b807b}
-.ar-meta dd{margin:0;color:#2f2724;word-break:break-word}
-.ar-note{margin-top:14px;padding:12px 14px;border-left:3px solid #8c3026;background:#fcf6f4;font-size:13px;line-height:1.6;color:#4a3028}
+.ar-meta dt{color:#747f92}
+.ar-meta dd{margin:0;color:#0e1625;word-break:break-word}
+.ar-note{margin-top:14px;padding:12px 14px;border-left:3px solid #1b3a6e;background:#f6f7fa;font-size:13px;line-height:1.6;color:#142035}
 .ar-history{list-style:none;margin:0;padding:0}
-.ar-history li{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:11px 0;border-bottom:1px solid #f0e9e6;font-size:13px}
+.ar-history li{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:11px 0;border-bottom:1px solid #e8eaee;font-size:13px}
 .ar-history li:last-child{border-bottom:0}
-.ar-history small{color:#8b807b}
+.ar-history small{color:#747f92}
 @media(max-width:600px){.ar-meta{grid-template-columns:1fr}}
 </style>
 
@@ -64,7 +64,7 @@ $dateFormat = static fn(?string $value): string => $value ? date('d/m/Y H:i', st
     <?php if ($role !== 'reader'): ?>
         <div class="ar-card">
             <h2>Bạn đã có quyền cao hơn Độc giả</h2>
-            <p style="margin:0 0 16px;font-size:14px;line-height:1.6;color:#4a3028">Vai trò hiện tại của bạn là <strong><?= e($roleName) ?></strong>, không cần gửi thêm yêu cầu.</p>
+            <p style="margin:0 0 16px;font-size:14px;line-height:1.6;color:#142035">Vai trò hiện tại của bạn là <strong><?= e($roleName) ?></strong>, không cần gửi thêm yêu cầu.</p>
             <?php if ($landing !== 'index.php'): ?><a class="ar-btn" href="<?= e(BASE_URL . $landing) ?>">Đến khu vực của tôi</a><?php endif; ?>
         </div>
     <?php endif; ?>
@@ -121,7 +121,7 @@ $dateFormat = static fn(?string $value): string => $value ? date('d/m/Y H:i', st
                 </div>
 
                 <div class="ar-field">
-                    <label class="ar-check"><input type="checkbox" name="agree" value="1" <?= $values['agree'] === '1' ? 'checked' : '' ?>><span style="color:#2f2724;font-weight:400">Tôi cam kết nội dung đăng lên do chính mình viết và chịu trách nhiệm về nội dung đó.</span></label>
+                    <label class="ar-check"><input type="checkbox" name="agree" value="1" <?= $values['agree'] === '1' ? 'checked' : '' ?>><span style="color:#0e1625;font-weight:400">Tôi cam kết nội dung đăng lên do chính mình viết và chịu trách nhiệm về nội dung đó.</span></label>
                     <?php if (isset($errors['agree'])): ?><small class="ar-error"><?= e($errors['agree']) ?></small><?php endif; ?>
                 </div>
 

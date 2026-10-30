@@ -19,20 +19,20 @@ $dateFormat = static fn(?string $value): string => $value ? date('d/m/Y H:i', st
 ?>
 <style>
 .ar-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
-.ar-tabs a{padding:8px 14px;border:1px solid #dcd1cb;border-radius:999px;background:#fff;color:#786d68;font-size:11px;font-weight:600;text-decoration:none}
-.ar-tabs a:hover{border-color:#8c3026;color:#8c3026}
-.ar-tabs a.active{color:#fff;background:#8c3026;border-color:#8c3026}
+.ar-tabs a{padding:8px 14px;border:1px solid #ccd1db;border-radius:999px;background:#fff;color:#49576e;font-size:11px;font-weight:600;text-decoration:none}
+.ar-tabs a:hover{border-color:#1b3a6e;color:#1b3a6e}
+.ar-tabs a.active{color:#fff;background:#1b3a6e;border-color:#1b3a6e}
 .status-chip.pending{color:#6e4f1b;background:#fff3d8}
 .status-chip.approved{color:#286448;background:#e8f5ee}
 .status-chip.rejected{color:#8b3330;background:#fae7e6}
 .ar-list{display:grid;gap:14px}
-.ar-item{padding:20px 22px;background:#fff;border:1px solid #eadfd9;border-radius:12px;box-shadow:0 7px 22px rgba(74,48,40,.04)}
+.ar-item{padding:20px 22px;background:#fff;border:1px solid #dce0e7;border-radius:12px;box-shadow:0 7px 22px rgba(20,32,53,.04)}
 .ar-item header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}
 .ar-item dl{display:grid;grid-template-columns:140px 1fr;gap:7px 14px;margin:0 0 14px;font-size:12px;line-height:1.6}
-.ar-item dt{color:#8b807b}
-.ar-item dd{margin:0;color:#2f2724;word-break:break-word}
-.ar-item dd a{color:#8c3026}
-.ar-actions{display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap;padding-top:14px;border-top:1px solid #f0e9e6}
+.ar-item dt{color:#747f92}
+.ar-item dd{margin:0;color:#0e1625;word-break:break-word}
+.ar-item dd a{color:#1b3a6e}
+.ar-actions{display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap;padding-top:14px;border-top:1px solid #e8eaee}
 .ar-actions form{margin:0}
 .ar-approve,.ar-reject{height:34px;padding:0 16px;border:0;border-radius:7px;cursor:pointer;font:600 11px Inter,sans-serif}
 .ar-approve{color:#fff;background:#37765a}
@@ -41,8 +41,8 @@ $dateFormat = static fn(?string $value): string => $value ? date('d/m/Y H:i', st
 .ar-reject:hover{filter:brightness(.96)}
 .ar-reject-form{display:flex;gap:8px;flex:1;min-width:260px}
 .ar-reject-form input{flex:1;height:34px;padding:0 10px;border:1px solid #dcd1cb;border-radius:7px;font:11px Inter,sans-serif}
-.ar-reject-form input:focus{border-color:#8c3026;outline:0;box-shadow:0 0 0 3px rgba(140,48,38,.08)}
-.ar-result{padding:11px 14px;border-left:3px solid #8c3026;background:#fcf6f4;font-size:11px;line-height:1.6;color:#4a3028}
+.ar-reject-form input:focus{border-color:#1b3a6e;outline:0;box-shadow:0 0 0 3px rgba(27,58,110,.08)}
+.ar-result{padding:11px 14px;border-left:3px solid #1b3a6e;background:#f6f7fa;font-size:11px;line-height:1.6;color:#142035}
 @media(max-width:700px){.ar-item dl{grid-template-columns:1fr}}
 </style>
 

@@ -67,8 +67,8 @@
 }
 
 .comment-search input[type="text"]:focus {
-    border-color: #8b2f25;
-    box-shadow: 0 0 0 3px rgba(139, 47, 37, 0.08);
+    border-color: #1a396d;
+    box-shadow: 0 0 0 3px rgba(26, 57, 109, 0.08);
 }
 
 .comment-search select {
@@ -86,8 +86,8 @@
 }
 
 .comment-search select:focus {
-    border-color: #8b2f25;
-    box-shadow: 0 0 0 3px rgba(139, 47, 37, 0.08);
+    border-color: #1a396d;
+    box-shadow: 0 0 0 3px rgba(26, 57, 109, 0.08);
 }
 
 .comment-search button {
@@ -95,7 +95,7 @@
     height: 42px;
     border: none;
     border-radius: 6px;
-    background: #8b2f25;
+    background: #1a396d;
     color: white;
     font-size: 14px;
     cursor: pointer;
@@ -103,7 +103,7 @@
 }
 
 .comment-search button:hover {
-    background: #72251e;
+    background: #142b53;
 }
 
 
@@ -134,7 +134,7 @@
 }
 
 .comment-table th {
-    background: #f5f1ec;
+    background: #eef0f3;
     color: #374151;
     font-size: 13px;
     font-weight: 600;
@@ -147,7 +147,7 @@
 }
 
 .comment-table tbody tr:hover {
-    background: #fcfaf8;
+    background: #f9fafb;
 }
 
 .comment-table tr:last-child td {
@@ -170,7 +170,7 @@
 }
 
 .comment-detail-link:hover {
-    color: #8b2f25;
+    color: #1a396d;
     text-decoration: underline;
 }
 

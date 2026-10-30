@@ -71,10 +71,10 @@
         .warning-box {
             padding: 16px 18px;
             margin-bottom: 25px;
-            background: #fff7ed;
-            border: 1px solid #fed7aa;
+            background: #f1f5fb;
+            border: 1px solid #bacdee;
             border-radius: 8px;
-            color: #9a3412;
+            color: #19376a;
             font-size: 14px;
             line-height: 1.5;
         }

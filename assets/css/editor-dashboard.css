@@ -10,7 +10,7 @@
 
 .editor-welcome h1 {
     margin-bottom: 6px;
-    color: #49312b;
+    color: #152137;
     font-size: 22px;
 }
 
@@ -36,9 +36,9 @@
     gap: 14px;
 
     background: #fff;
-    border: 1px solid #eadfd9;
+    border: 1px solid #dce0e7;
     border-radius: 12px;
-    box-shadow: 0 7px 22px rgba(74, 48, 40, .04);
+    box-shadow: 0 7px 22px rgba(20, 32, 53, .04);
 }
 
 .editor-stat-icon {
@@ -60,7 +60,7 @@
 
 .editor-stat-info strong {
     margin: 3px 0;
-    color: #2f2724;
+    color: #0e1625;
     font-family: Lora, serif;
     font-size: 27px;
     font-weight: 700;
@@ -69,14 +69,14 @@
 
 .editor-stat-info span {
     margin-top: 0;
-    color: #786d68;
+    color: #49576e;
     font-size: 10px;
     white-space: nowrap;
 }
 
 .editor-stat-icon.stat-blue {
-    color: #8c3026;
-    background: #fae9e6;
+    color: #1b3a6e;
+    background: #eaeef6;
 }
 
 .editor-stat-icon.stat-purple {
@@ -90,8 +90,8 @@
 }
 
 .editor-stat-icon.stat-red {
-    color: #6d6764;
-    background: #efedec;
+    color: #435065;
+    background: #ecedef;
 }
 
 .editor-recent-posts {
@@ -115,7 +115,7 @@
     display: flex;
     align-items: center;
     gap: 7px;
-    color: #813027;
+    color: #1c3663;
     font-size: 13px;
 }
 
@@ -171,7 +171,7 @@
 }
 
 .no-thumbnail {
-    background: #f0eeee;
+    background: #edeff1;
     color: #aaa;
     display: flex;
     align-items: center;

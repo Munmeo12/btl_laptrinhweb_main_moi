@@ -12,7 +12,7 @@
 
 .welcome-section p {
     font-size: 16px;
-    color: #7d8d76;
+    color: #6b7a90;
 }
 
 /* THỐNG KÊ - ĐỒNG BỘ GIAO DIỆN ADMIN */
@@ -31,9 +31,9 @@
     gap: 14px;
 
     background: #fff;
-    border: 1px solid #eadfd9;
+    border: 1px solid #dce0e7;
     border-radius: 12px;
-    box-shadow: 0 7px 22px rgba(74, 48, 40, .04);
+    box-shadow: 0 7px 22px rgba(20, 32, 53, .04);
 }
 
 .stat-icon {
@@ -49,8 +49,8 @@
 }
 
 .stat-blue {
-    color: #8c3026;
-    background: #fae9e6;
+    color: #1b3a6e;
+    background: #eaeef6;
 }
 
 .stat-yellow {
@@ -69,8 +69,8 @@
 }
 
 .stat-red {
-    color: #9a403a;
-    background: #fae7e6;
+    color: #2d4b7e;
+    background: #eaeef6;
 }
 
 .stat-info {
@@ -80,7 +80,7 @@
 
 .stat-info strong {
     margin: 3px 0;
-    color: #2f2724;
+    color: #0e1625;
     font-family: Lora, serif;
     font-size: 27px;
     font-weight: 700;
@@ -88,7 +88,7 @@
 }
 
 .stat-info span {
-    color: #786d68;
+    color: #49576e;
     font-size: 10px;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .view-all {
-    color: #813027;
+    color: #1c3663;
     font-size: 14px;
 }
 
@@ -124,12 +124,12 @@
     display: inline-block;
     padding: 7px 17px;
     border-radius: 8px;
-    background: #f0eeee;
+    background: #edeff1;
     font-size: 13px;
 }
 
 .action-button:hover {
-    background: #e3dddd;
+    background: #dddfe3;
 }
 
 @media (max-width: 950px) {

@@ -60,7 +60,7 @@ declare(strict_types=1);
     padding: 0 15px;
     border: none;
     border-radius: 3px;
-    background: #7d2e24;
+    background: #19335f;
     color: white;
     font-size: 12px;
     cursor: pointer;
@@ -73,7 +73,7 @@ declare(strict_types=1);
 
 .search-button:hover,
 .explore-button:hover {
-    background: #65241c;
+    background: #122546;
 }
 
 .impact-select {
@@ -178,8 +178,8 @@ declare(strict_types=1);
     width: fit-content;
     margin-bottom: 7px;
     padding: 3px 7px;
-    background: #f2e5e1;
-    color: #7d2e24;
+    background: #e4e8ef;
+    color: #19335f;
     font-size: 9px;
     font-weight: bold;
     border-radius: 2px;
@@ -209,7 +209,7 @@ declare(strict_types=1);
 }
 
 .impact-card-title a:hover {
-    color: #7d2e24;
+    color: #19335f;
 }
 
 
@@ -219,7 +219,7 @@ declare(strict_types=1);
 
 .impact-note {
     background: #fafafa;
-    border-left: 3px solid #7d2e24;
+    border-left: 3px solid #19335f;
     padding: 6px 7px;
     margin: 4px 0 0;
     font-size: 11px;
@@ -267,7 +267,7 @@ declare(strict_types=1);
 }
 
 .impact-saved {
-    color: #7d2e24;
+    color: #19335f;
     font-size: 10px;
     font-weight: bold;
 }
@@ -298,16 +298,16 @@ declare(strict_types=1);
 
 .read-button {
     background: white;
-    color: #7d2e24;
-    border: 1px solid #7d2e24 !important;
+    color: #19335f;
+    border: 1px solid #19335f !important;
 }
 
 .read-button:hover {
-    background: #f6eeeb;
+    background: #edf0f4;
 }
 
 .edit-button {
-    background: #7d2e24;
+    background: #19335f;
     color: white;
 }
 
@@ -327,8 +327,8 @@ declare(strict_types=1);
 ========================================================= */
 
 .impact-empty {
-    background: #fffaf7;
-    border: 1px solid #e4ddd8;
+    background: #f9fafd;
+    border: 1px solid #dadde2;
     min-height: 220px;
 
     display: flex;
@@ -424,9 +424,9 @@ declare(strict_types=1);
 }
 
 .impact-pagination .active {
-    background: #7d2e24;
+    background: #19335f;
     color: white;
-    border-color: #7d2e24;
+    border-color: #19335f;
 }
 
 .impact-pagination .disabled {
@@ -457,7 +457,7 @@ declare(strict_types=1);
     width: 430px;
     max-width: calc(100% - 30px);
 
-    background: #fffaf5;
+    background: #f7f9fd;
 
     padding: 24px;
 
@@ -569,8 +569,8 @@ declare(strict_types=1);
 }
 
 .modal-submit {
-    background: #7d2e24;
-    border: 1px solid #7d2e24;
+    background: #19335f;
+    border: 1px solid #19335f;
     color: white;
 }
 
